@@ -1,9 +1,8 @@
-
-body{
+body {
     background-color: black;
     margin-left: 20px;
     margin-right: 20px;
-  }
+}
 
 /* Header */
 
@@ -164,6 +163,21 @@ nav {
     border: none;
 }
 
+.shopBtn:hover {
+    color: white;
+    font-size: 20px;
+    font-weight: 50px;
+    padding: 12px 28px;
+    width: 150px;
+    background-color: #6aa9f5;
+    position: absolute;
+    top: 55%;
+    left: 69%;
+    border-radius: 6px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
 .descriptionIpad {
     color: rgb(0, 0, 0);
     font-size: 18px;
@@ -212,12 +226,27 @@ nav {
     border: none;
 }
 
+.podsBtn:hover {
+    color: white;
+    font-size: 20px;
+    font-weight: 50px;
+    padding: 12px 28px;
+    width: 150px;
+    background-color: #6aa9f5;
+    position: absolute;
+    top: 41%;
+    left: 24%;
+    border-radius: 6px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
 .owl-carousel>div {
     position: relative;
 }
 
-.carouselWatch{
-    margin-top:100px
+.carouselWatch {
+    margin-top: 100px
 }
 
 .btnCarousel {
@@ -227,6 +256,21 @@ nav {
     padding: 12px 28px;
     width: 150px;
     background-color: #328EFD;
+    position: absolute;
+    top: 83%;
+    left: 34%;
+    border-radius: 6px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.btnCarousel:hover {
+    color: white;
+    font-size: 20px;
+    font-weight: 50px;
+    padding: 12px 28px;
+    width: 150px;
+    background-color: #6aa9f5;
     position: absolute;
     top: 83%;
     left: 34%;
@@ -253,72 +297,107 @@ nav {
 
 /*gabi*/
 
-body{
+body {
     background-color: black !important;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.col-6>img{
+.col-6>img {
     width: 80px;
     height: 120px;
 }
 
-#fotos{
+#fotos {
     width: 1200px;
     height: 1200px;
     display: flex;
 
 }
 
-.row-1{
+.row-1 {
     width: 400px;
     height: 400px;
 }
 
-.col-1{
+.col-1 {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.p-3{
+.p-3 {
     width: 20px;
     height: 20px;
 }
 
-.row{
+.row {
     --bs-gutter-x: 1rem !important;
 }
 
-.m-5{
-margin: 35px 0 0 0 !important;
+.m-5 {
+    margin: 35px 0 0 0 !important;
 }
-.col-lg-4{
+
+.col-lg-4 {
     width: 25% !important;
 }
 
-footer{
-    background-color: aqua;
-    background-image: url("../img/footer.png");
+footer {
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-}
-
-.galeria{
     display: flex;
     flex-direction: row;
 }
 
-.w-100{
+#descargar {
+    color: aliceblue;
+    margin-block-end: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 60px;
+}
+
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+}
+
+.w-100 {
     width: min-content;
     height: min-content;
 }
-body{
+
+body {
     background-color: black;
-   
+
 }
+
 main {
     padding: 0 50px;
 }
+
+.foot {
+
+    display: flex;
+    flex-direction: row;
+    width: 5%;
+    height: auto;
+    margin-right: 120px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.foot img {
+    display: flex;
+    align-items: start;
+    height: 50px;
+}
+
+

@@ -50,3 +50,19 @@
     border: none;
     z-index: 3;
 }
+
+.btn:hover{
+    color: white;
+    font-size: 26px;
+    font-weight: 50px;
+    padding: 12px 28px;
+    width: 180px;
+    background-color: #6aa9f5;
+    position: absolute;
+    top: 65%;
+    left: 19%;
+    border-radius: 6px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+    z-index: 3;
+}
