@@ -20,9 +20,9 @@ class Opinions extends HTMLElement {
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Air pods</h5>
+        <p class="card-text">I bought these headphones 6 months ago and it is the best purchase I have made, I use them every day.</p>
+        <p class="card-text"><small class="text-muted">Samanta Guerrero</small></p>
       </div>
     </div>
   </div>
@@ -35,9 +35,9 @@ class Opinions extends HTMLElement {
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Airtag</h5>
+        <p class="card-text">I bought the airtag because I always lost my house keys but I found the solution with this.</p>
+        <p class="card-text"><small class="text-muted">Cristian Ortiz</small></p>
       </div>
     </div>
   </div>
@@ -53,9 +53,9 @@ class Opinions extends HTMLElement {
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Apple Wallet</h5>
+        <p class="card-text">now I have my documents organized and I can use them quickly and safely.</p>
+        <p class="card-text"><small class="text-muted">Valeria Martinez</small></p>
       </div>
     </div>
   </div>
@@ -68,9 +68,9 @@ class Opinions extends HTMLElement {
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Case for charge</h5>
+        <p class="card-text">now i can fast charge my cell phone using and also the case looks nice.</p>
+        <p class="card-text"><small class="text-muted">Laura Forero</small></p>
       </div>
     </div>
   </div>
@@ -85,9 +85,9 @@ class Opinions extends HTMLElement {
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Ipad Pro</h5>
+        <p class="card-text">I bought this ipad to replace the notebooks when I study and it has been very efficient for my learning process.</p>
+        <p class="card-text"><small class="text-muted">Rossy Hurtado</small></p>
       </div>
     </div>
   </div>
@@ -100,9 +100,9 @@ class Opinions extends HTMLElement {
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Apple Watch</h5>
+        <p class="card-text">1 year ago I bought this watch for my marathon training and it has been a great help to keep track of my process.</p>
+        <p class="card-text"><small class="text-muted">Gabriel Quintero</small></p>
       </div>
     </div>
   </div>

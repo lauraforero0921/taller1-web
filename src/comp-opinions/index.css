@@ -58,12 +58,14 @@ background-position: center;
     
     background-color: rgb(192, 214, 248);
     opacity: 0.3;
-    height: 238px;
+    height: 237px;
 }
 
 .carousel-control-next:hover{
     
     background-color: rgb(192, 214, 248);
     opacity: 0.3;
-    height: 238px;
+    height: 232px;
 }
+
+
