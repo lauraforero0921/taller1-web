@@ -68,4 +68,21 @@ background-position: center;
     height: 232px;
 }
 
+@media screen and (max-width: 400px) {
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    height: 341px;
+    padding-left: 10px;
+    
+}
+
+.card-text{
+    color: aliceblue;
+    font-size: 12px;
+}
+
+
+}
 
