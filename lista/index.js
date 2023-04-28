@@ -94,7 +94,7 @@ const products=[
     "id":"",
     "name": "Iphone 14 Pro",
     "descripcion":"",
-    "price" : "5.000.000",
+    "price" : "$999",
     "img": "https://www.apple.com/newsroom/images/product/airpods/standard/Apple_AirPods-3rd-gen_hero_10182021.jpg.og.jpg?202303301826",
     "category":"iphone",
     "subcategor":"iphone 14"
@@ -103,7 +103,7 @@ const products=[
     "id":"",
     "name": "Iphone 14 Pro Max",
     "descripcion":"",
-    "price" : "5.000.000",
+    "price" : "$999",
     "img": "https://www.apple.com/newsroom/images/product/airpods/standard/Apple_AirPods-3rd-gen_hero_10182021.jpg.og.jpg?202303301826",
     "category":"iphone",
     "subcategor":"iphone 14"

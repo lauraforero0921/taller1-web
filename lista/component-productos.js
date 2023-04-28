@@ -26,16 +26,21 @@ class ProductItem extends HTMLElement {
 
     product(lista) {
     console.log(lista);
-        lista.forEach(item =>{
+    lista.forEach(item =>{
+          let url = item.name.replaceAll(" ","-")
+          let urlProduct = "../detail/detail.html?id="+url
+          
             this.innerHTML += `
+            
             <div class="card" style="width: 18rem;">
-            <img src="https://www.apple.com/newsroom/images/product/airpods/standard/Apple_AirPods-3rd-gen_hero_10182021.jpg.og.jpg?202303301826" class="card-img-top" alt="...">
+            <img src=${item.img} class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">${item.name}</h5>
               <p class="card-text">${item.price}</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="${urlProduct}" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
+          
          `
         })
         
