@@ -1,0 +1,63 @@
+
+class ProductItem extends HTMLElement {
+    constructor() {
+      super();
+      this.array = []
+      }
+      
+      
+      
+      connectedCallback(){
+        this.newProduct = this.getAttribute('newProduct')
+        this.product(this.array)
+    }
+    
+    static get observedAttributes() {
+        return ['newProduct','array'];
+    }
+    
+    attributeChangedCallback(name, oldValue, newValue){
+        this.newProduct = newValue;
+        console.log(this.newProduct);
+        this.product(this.array)
+        
+    }
+    
+
+    product(lista) {
+    console.log(lista);
+        lista.forEach(item =>{
+            this.innerHTML += `
+            <div class="card" style="width: 18rem;">
+            <img src="https://www.apple.com/newsroom/images/product/airpods/standard/Apple_AirPods-3rd-gen_hero_10182021.jpg.og.jpg?202303301826" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">${item.name}</h5>
+              <p class="card-text">${item.price}</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+         `
+        })
+        
+        
+    }
+
+    ProductsFilter(filterType) {
+      let filter = [];
+      this.innerHTML = ''
+      if(!filterType || filterType === 'All'){
+        filter = this.array;
+      } else if(filterType != 'All' && filterType){
+        filter = this.array.filter(product => product.category === filterType.toLowerCase())
+      }
+      this.product(filter)
+  }
+
+
+}
+    
+
+
+  
+  customElements.define("product-item", ProductItem);
+  export default ProductItem
